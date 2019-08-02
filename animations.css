@@ -1,0 +1,21 @@
+.animate-slide-in-left.au-enter {
+  transform: translateX(-100%);
+}
+.animate-slide-in-left.au-enter-active {
+  animation: SlideInLeft 1s;
+}
+
+@keyframes SlideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.au-stagger {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
